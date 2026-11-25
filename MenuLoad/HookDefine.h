@@ -91,7 +91,7 @@ void hook1() {
       uint64_t skillpositionoffset = GET_OFFSET("Project_d.dll", oxorany("Assets.Scripts.GameLogic"), oxorany("SkillControlIndicator"), oxorany("GetUseSkillPosition"), 1);
 
       uint64_t offsetcoban1 = GET_OFFSET("Project_d.dll", oxorany(""), oxorany("MiniMapHeroInfo"), oxorany("ShowHeroHpInfo"), 1);
-      uint64_t offsetcoban2 = GET_OFFSET("Project.Plugins_d.dll", oxorany("NucleusDrive.Logic"), oxorany("LVActorLinker"), oxorany("SetVisible"), 3);
+      uint64_t offsetcoban2 = GET_OFFSET("Project.Plugins_d.dll", oxorany("NucleusDrive.Logic"), oxorany("LVActorLinker"), oxorany("SetVisible"), 4);
       uint64_t offsetcoban3 = GET_OFFSET("Project_d.dll", oxorany("Assets.Scripts.GameSystem"), oxorany("HeroInfoPanel"), oxorany("ShowHeroInfo"), 2);
       uint64_t offsetcoban4 = GET_OFFSET("Project_d.dll", oxorany(""), oxorany("MiniMapHeroInfo"), oxorany("ShowSkillStateInfo"), 1);
 
